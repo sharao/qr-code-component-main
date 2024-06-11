@@ -14,7 +14,8 @@ body {
    background-color: hsl(0, 0%, 100%);
    border-radius: 20px;
    overflow: hidden;
-   max-width: 375px;
+   max-width: 320px;
+   max-height: 497px;
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
    padding: 16px;
    .card-image {
@@ -40,8 +41,4 @@ body {
  }
 }
 
-@media (min-width: 1440px) {
- .card {
-  max-width: 400px;
- }
-}
+
